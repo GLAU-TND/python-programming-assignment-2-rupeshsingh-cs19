@@ -1,0 +1,5 @@
+n = int(input())
+b = bin(n)[2:]
+l = b.split('0')
+m = max(l)
+print(len(m))
